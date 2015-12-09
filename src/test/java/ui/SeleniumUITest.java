@@ -41,10 +41,10 @@ public class SeleniumUITest
     	novoTodo.click();
     	
     	WebElement nomeTodo = driver.findElement(By.id("title"));
-    	nomeTodo.sendKeys("Apresentar palestra na M4U");
+    	nomeTodo.sendKeys("Apresentar palestra sobre automação");
     	
     	WebElement descricao = driver.findElement(By.id("text"));
-    	descricao.sendKeys("1o Ciclo de Palestras - 2015");
+    	descricao.sendKeys("Primeiros Passos em Automação de Testes");
     	
     	WebElement salvar = driver.findElement(By.id("save"));
     	salvar.click();
