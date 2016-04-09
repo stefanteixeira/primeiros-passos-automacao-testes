@@ -41,7 +41,7 @@ public class SeleniumUITest
     	novoTodo.click();
     	
     	WebElement nomeTodo = driver.findElement(By.id("title"));
-    	nomeTodo.sendKeys("Apresentar palestra sobre automação");
+    	nomeTodo.sendKeys("Apresentar palestra no VR Dev Summit 2016");
     	
     	WebElement descricao = driver.findElement(By.id("text"));
     	descricao.sendKeys("Primeiros Passos em Automação de Testes");
